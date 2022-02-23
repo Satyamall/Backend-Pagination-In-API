@@ -20,3 +20,8 @@
   - size = size ( same number that we received from frontend )
 
 - Finally we also need to calculate the totalPages for the query so that frontend can show the next and previous arrows properly, for e.g :- if the user is on last page then they will not show next and if he is on first page then they will not show prev and a lot of other cool things can be done with this totalPages data.
+
+**Pagination query in API**
+```js
+http://localhost:5000/users?page=1&limit=10
+```
